@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "rishu-attendance-2025",
+          "configurations": {
+            "android": "1:981909531002:android:eaa56ad2eef879883f0ec3",
+            "web": "1:981909531002:web:429a9e0f0d0e1c8c3f0ec3"
+          }
+        }
+      },
+      "android": {
+        "default": {
+          "projectId": "rishu-attendance-2025",
+          "appId": "1:981909531002:android:eaa56ad2eef879883f0ec3",
+          "fileOutput": "android/app/google-services.json"
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
